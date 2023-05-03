@@ -46,6 +46,7 @@ public class LinkedList {
                 System.out.print(curr.data+" ");
                 curr=curr.next;
             }
+            System.out.println(" ");
 
         }
     }
@@ -228,20 +229,11 @@ System.out.print("not found");
         return head;
     }
 
-    public Node merge()
-    {
 
-        Node curr1=head;
 
-        while(curr1!=null)
-        {
-            curr1=curr1.next;
-        }
 
-        curr1.next=curr2;
 
-        return head;
-    }
 }
+
 
 

@@ -25,26 +25,11 @@ public class Main {
         obj2.insert(10); // 4,33,90 ,10,6,12
         obj2.insert(20);
 
-        obj.merge();
 
 
-//        System.out.println(obj.minimum());
-//        System.out.println(obj.maximum());
-
-          // obj.delete(6);
            obj.printList();
            obj2.printList();
-//           System.out.println("\nSorted vals\n");
-//           obj.sorting();
-//
-//           obj.deleteNode(33);
-//           System.out.println("deleted");
-//           obj.printList();
 
-
-
-
-        obj.reverse();
 
 
     }
